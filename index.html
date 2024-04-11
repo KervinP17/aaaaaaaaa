@@ -1,0 +1,37 @@
+<!doctype html>
+<!--
+	Codeur(se) 		: Inscrire votre nom ici
+	Assistant.e.s	: Inscrire les noms ici
+-->
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Sphères</title>
+    <link rel="stylesheet" href="css/spheres.css">
+    <script src="js/spheres.js"></script>
+</head>
+<body>
+    <h1>Sphères</h1>
+    <form>
+        Génération de <input id="nbSpheres" type="number" min="3" max="20" value="3"> sphères aléatoires.
+<!--        Bac <input id="noBac" type="number" min="1" max="5" value="1">-->
+        <input id="btnGenerer" type="button" value="Générer">
+    </form>
+    <div id="bac1" class="bac">
+        <div id="sphere1" class="sphere"></div>
+        <div id="sphere2" class="sphere"></div>
+        <div id="sphere3" class="sphere"></div>
+        <div id="sphere4" class="sphere"></div>
+    </div>
+<!--
+    <div id="bac2" class="bac">
+    </div>
+-->
+    <h2>Instructions</h2>
+    <ul>
+        <li>Cliquez une sphère avec le bouton gauche de la souris pour changer sa couleur avec sa couleur complémentaire</li>
+        <li>Cliquez une sphère avec le bouton droit de la souris pour diminuer sa taille de moitié</li>
+        <li>Entrez une valeur entre 3 et 20 puis le bouton Générer pour générer de nouvelles sphères</li>
+    </ul>
+</body>
+</html>
