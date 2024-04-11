@@ -43,6 +43,7 @@ function btnGenererClic() {
 function genererSphere(id, lgBac, htBac) {
     let uneSphere;
     let a;
+    //asudfyahdfjkasldhfjkaslhfjkasdluewwueriop
 
 	// À compléter
 	
